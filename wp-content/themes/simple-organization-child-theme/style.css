@@ -1,0 +1,56 @@
+/*
+Theme name: Simple Organization Child Theme
+Theme URI:
+Description: A child theme with template files for layout
+Author: Andrew Farquharson
+Author URI: http://cactusblossomitservices.com
+Template: simple-organization
+Version: 1.0
+. 
+You need to have the Simple Organisation theme in this wp-content/themes/ folder for this theme to work.
+
+.
+*/
+
+@import url("../simple-organization/style.css");
+
+/* The following CSS added by AJF to be applied conditionally to custom and default templates that have
+been added to the simple-organization child theme */
+/* Main */
+
+/* The next block of CSS is applied to the custom template 'remedy-custom-page' */
+.page-template-remedy-custom-page-php .main {margin: 24px 0;}
+.page-template-remedy-custom-page-php .main#main-two-columns {background: url('');}
+.page-template-remedy-custom-page-php .main#main-two-columns-left {background: url('');}
+.page-template-remedy-custom-page-php .main#main-two-columns #main-content, .main#main-two-columns-left #main-content {width: 720px; padding-bottom: 145px;}
+
+/* This block applies to the map page */
+.page-id-1048 .main {margin: 24px 0;}
+.page-id-1048 .main#main-two-columns {background: url('');}
+.page-id-1048 .main#main-two-columns-left {background: url('');}
+.page-id-1048 .main#main-two-columns #main-content, .main#main-two-columns-left #main-content {width: 920px; padding-bottom: 145px;}
+
+/* This block of CSS is applied to the single.php default template */
+.single .main {margin: 24px 0;}
+.single .main#main-two-columns {background: url('');}
+.single .main#main-two-columns-left {background: url('');}
+.single .main#main-two-columns #main-content, .main#main-two-columns-left #main-content {width: 720px; padding-bottom: 145px;}
+
+/* This block applies to the blog.php default template */
+.blog .main {margin: 24px 0;}
+.blog .main#main-two-columns {background: url('');}
+.blog .main#main-two-columns-left {background: url('');}
+.blog .main#main-two-columns #main-content, .main#main-two-columns-left #main-content {width: 720px; padding-bottom: 145px;}
+
+
+/* Sidebar */
+
+#sidebar {width: 255px;}
+
+
+/* Columns */
+
+.col3, .col3-mid {width: 31%;}
+.col3-mid {margin-left: 3%;}
+
+
