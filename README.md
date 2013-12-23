@@ -1,4 +1,4 @@
-remedy-mandela
+remedy-mandela0
 ==============
 
 This repo contains the original wordpress installation for Remedy Partnership.
